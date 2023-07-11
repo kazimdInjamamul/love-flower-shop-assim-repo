@@ -1,19 +1,139 @@
-*{
+/* common shared style */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+* {
     margin: 0px;
     padding: 0px;
 }
+
+.text-primary {
+    color: #E55473;
+
+}
+
 /* header related style */
 
-.header{
-    background-color:#eb708b ;
-  
+.header {
+    background-color: #fffafa;
+
+
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 50px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+
+
 }
-.profile-pic{
+
+.banner-title {
+    color: #272727;
+    font-size: 85px;
+    font-weight: 700px;
+    max-width: 708px;
+    margin-bottom: 0;
+}
+
+.banner-description {
+    width: 634px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700 px;
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+
+.profile-pic {
     width: 635px;
     height: 800px;
+
+}
+
+/* main section */
+.section {
+    padding-top: 80px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+
+}
+
+.about {
+    text-align: center;
+
+    display: flex;
+    padding: 130px;
+    background: #f7dde3;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.section.section-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 200px;
+    max-width: 1922px;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.section-skill {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#what-id {
+    padding: 30px 600px;
+    text-align: center;
+}
+
+.background-pic {
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: justify;
+    margin: 70px 30px 50px 40px;
+    margin-top: 100px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png')
+}
+
+.contact input[type="email"] {
+    margin-bottom: 25px;
+
+    padding: 10px 35px;
+    width: 50%;
+    color: #757575;
+    background-color: #ffffff;
+    border: 10px;
+    width: 50%;
+
+}
+
+.contact {
+    margin-left: 500px;
+    /* margin: auto; */
+}
+
+.Latest-flower {
+    width: 100%;
+
 }
