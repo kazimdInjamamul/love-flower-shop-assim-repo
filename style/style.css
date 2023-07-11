@@ -94,13 +94,38 @@ body {
     padding-top: 30px;
     margin-bottom: 0;
 }
+.section-skill-flower{
+    display: flex;
+    justify-content:space-around;
+    gap: 5px;
+    border: 0 solid;
+    /* height: 600px; */
+    /* width: 400px; */
+    /* border-radius: 300; */
+    
+}
 
 .section-skill {
     display: flex;
     justify-content: center;
-    gap: 10px;
-}
+   
 
+}
+.skill-pink{
+    background-color:#f8a3cc;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    
+    
+}
+.skill-green{
+    background-color:#8bf1f7;
+    border:0 ;
+}
+.skill-yellow{
+    background-color:#c0f18e;
+    border:0 ;
+}
 #what-id {
     padding: 30px 600px;
     text-align: center;
