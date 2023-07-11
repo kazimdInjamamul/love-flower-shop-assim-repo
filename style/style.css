@@ -61,11 +61,6 @@ nav a {
     color: #474747;
 }
 
-
-
-
-
-
 .text-primary {
     color: #E55473;
 
@@ -152,20 +147,20 @@ nav a {
 }
 .section-skill-flower{
     display: flex;
+    
     align-items: center;
     background-position:center;
-    background-size: 500px;
+    background-size: 700px;
     justify-content:space-around;
-    /* margin-top: 10px; */
-    /* border: 0 solid; */
-    
-
-    
+    margin:auto;
+    border: 2 solid;
+   
 }
 
 .section-skill {
     display: flex;
     justify-content: center;
+    gap: 20px;
    
 
 }
@@ -238,4 +233,38 @@ nav a {
 .text-prime-lop{
     color:#fffafa;
     font-size: small;
+}
+.service-contain{
+    height: 100vh;
+    background-color: #696262;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    color:#f7dde3 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.icon{
+    width: 170px;
+}
+.box{
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    padding: 50px;
+    background-color:#463c3f;
+    color: #181818;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.service-description-all{
+    width: 50%
+}
+.tow-box{
+    display: flex;
+    row-gap: 10px;
+    gap: 10px;
+  
 }
