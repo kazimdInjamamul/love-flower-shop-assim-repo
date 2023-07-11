@@ -137,3 +137,18 @@ body {
     width: 100%;
 
 }
+.section-desc{
+    padding: 30px 600px;
+    text-align: center;}
+.footer-style{
+    background-color: #111010;
+    color: #fffafa;
+    padding-bottom: 100px;
+}
+.text-prime{
+    color:#fffafa;
+}
+.text-prime-lop{
+    color:#fffafa;
+    font-size: small;
+}
